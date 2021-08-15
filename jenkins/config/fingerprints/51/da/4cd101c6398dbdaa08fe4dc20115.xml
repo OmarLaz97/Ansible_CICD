@@ -10,11 +10,11 @@
     </entry>
     <entry>
       <string>Backend</string>
-      <ranges>1-13</ranges>
+      <ranges>1-8</ranges>
     </entry>
     <entry>
       <string>Frontend</string>
-      <ranges>2-20</ranges>
+      <ranges>2-13</ranges>
     </entry>
   </usages>
   <facets>

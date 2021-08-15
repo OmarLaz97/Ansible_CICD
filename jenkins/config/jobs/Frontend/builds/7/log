@@ -1,0 +1,183 @@
+Started by GitHub push by OmarLaz97
+Lightweight checkout support not available, falling back to full checkout.
+Checking out git https://github.com/OmarLaz97/Frontend_CICD into /var/jenkins_home/workspace/Frontend@script to read Jenkinsfile
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential Github_Auth
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Frontend@script/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/OmarLaz97/Frontend_CICD # timeout=10
+Fetching upstream changes from https://github.com/OmarLaz97/Frontend_CICD
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/OmarLaz97/Frontend_CICD +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/development
+Seen branch in repository origin/main
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 76bb2ebb61b1c7f41f3a9da29300e7771e9fe560 (origin/development)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 76bb2ebb61b1c7f41f3a9da29300e7771e9fe560 # timeout=10
+Commit message: "Added docker compose"
+ > git rev-list --no-walk 64de2fa72612ce877f92d84e68c1f9904501ff5b # timeout=10
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4OYsrcHmgbK6Nks+TPIqHRZ0KBouCDAorQKHNvk9jLu9AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4LeCnWKaMEehsPDBn79ITduRcVhe5FFjLI/3gsNtoYrSAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4AH0Xm69zwnjseaUsHP1f6C0qQ455tawXUT7RSMqB6GGAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/Frontend
+[8mha:////4Ckp+cAypBos+pqZk+9KH7kwXS2qbrMqUibcX30/yTGqAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4HsKiOKM538XaarQWj2Bie2m+0MHnypGXxcgP6uxf9mNAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4CWG6QfgQEV3XaIArYInmddOq0zCQIjpJ9YXPfMY78DbAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Ksmcr2Rhib3dVfN8G/C+iEkRKJ6swlKblZl9jdDBF70AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential Github_Auth
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Frontend/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/OmarLaz97/Frontend_CICD # timeout=10
+Fetching upstream changes from https://github.com/OmarLaz97/Frontend_CICD
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/OmarLaz97/Frontend_CICD +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/development
+Seen branch in repository origin/main
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 76bb2ebb61b1c7f41f3a9da29300e7771e9fe560 (origin/development)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 76bb2ebb61b1c7f41f3a9da29300e7771e9fe560 # timeout=10
+Commit message: "Added docker compose"
+[8mha:////4BXuBhkZUTmgCj2Dc87mzKqSXVHwrd8auI0fWsJ/eWOaAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4IMOyUGqmuntXuhz+O9wRaREXux1bzUf2L2xXVkKh2KjAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4EddciRXh9M/pHXnVulFXQEquA/YtPZCya6fl/uLcKW8AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4GNiMT1hDkj9bbJ1dZNfzfUja0FnOMRYbFXUW7r3hdNUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4MWa3uCtr5u0EONyf6O9B3uVOGYBA5HQfIe7vk2K1xTiAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4MOjHWmhWUPPvhsOjqt6We1+xs/gYfwOakiBPAdTDf1CAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Build Frontend Development Image)
+[8mha:////4NnAaeiMcqKs9pltl2B/+I2Ur3LeIs1mRF6GBUogHcXUAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] script
+[8mha:////4DDv32tCLYfsbqNkFa/h2opnVjaKQVKht8hZrQz+TDJBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4L73zwYNISdKfBkmP3BkNEqIcOlE1GwW19Bxb+PgyrYGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] withEnv
+[8mha:////4PcakoBJRQ5GLY5Y43n+P8CPFs3njlOuYF3t1N0ZzdceAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] {
+[8mha:////4H/v+F3c6S5dTxLszHMkzon9JlgIt1IAtgm8riNa9p0gAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] withDockerRegistry
+$ docker login -u omarlaz -p ******** https://index.docker.io/v1/
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/jenkins_home/workspace/Frontend@tmp/ead9428f-2db4-4b5f-9fe0-c95dfe70c187/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4DArtqPR77G0jMIDHvcXrroNCI8QPAQVvzX2u06APag+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4F62fFD41VSxsk47MliZhsPf4WdQ19i9tWYJ/9KSWSu9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] isUnix
+[8mha:////4OpXbLMJlIt+3/7FoUVkA1ZSIIktA+Ye4IavnSEh7rEWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] sh
++ docker build -t omarlaz/frontend:dev -f Dockerfile.dev .
+Sending build context to Docker daemon  47.82MB
+Step 1/6 : FROM node:alpine
+ ---> aa0a3d029721
+Step 2/6 : WORKDIR /app
+ ---> Using cache
+ ---> b647bbddef97
+Step 3/6 : COPY ./package.json ./
+ ---> Using cache
+ ---> 0abf1ad8f105
+Step 4/6 : RUN npm install
+ ---> Using cache
+ ---> 4f31be2f2e85
+Step 5/6 : COPY . .
+ ---> 7d522076a501
+Step 6/6 : CMD ["npm",  "start"]
+ ---> Running in 2c1f08687840
+Removing intermediate container 2c1f08687840
+ ---> 88c175abd70d
+Successfully built 88c175abd70d
+Successfully tagged omarlaz/frontend:dev
+[8mha:////4K1N9F+FJJxB1ozCWnSl5EjljojKuVeXJ4ZtWSo+yp4jAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPoukFhO+AAAA[0m[Pipeline] }
+[8mha:////4G37HIX63r4jFsq+se0PaeZn6o/f2Un/LnikK+fgKEZrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+4R02vvgAAAA==[0m[Pipeline] // withDockerRegistry
+[8mha:////4J3vcVlts+YWVPqEI6hMzftw7TN6nEopZuHfOsYbDTa9AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAkWr3Ir4AAAA=[0m[Pipeline] }
+[8mha:////4BCkxjmQoUqhm99rEkj8I3/2i+ejKWueThOAXOtx5UilAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+iiayevgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4PuW5AsamRubcPmDe8lyj1sKIWKj3wDe0iQLcTKWdIjTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+2qjGBvgAAAA==[0m[Pipeline] }
+[8mha:////4EUAStyUsvANi+0Dk27GxMpGtuXL+/wA3wzjJFJ2tqGEAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AhUlqPb4AAAA=[0m[Pipeline] // script
+Post stage
+[8mha:////4PvUOzTPnlY9TWmczomDzLhax7Y8Xm7A+5CQWYvxQo4dAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrnd59odhg9fRV1avgAAAA==[0m[Pipeline] echo
+Frontend image was built successfully!!
+[8mha:////4J0sRiV3my8ERtbOBD8ne7NWXuW97zz7UM3RLqdHL+xRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdIdd2/wFWvQSZvgAAAA==[0m[Pipeline] }
+[8mha:////4I++3486euDjp1sryhn5naRtyJxUnNNDnokzcPasxQWAAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5trtP7zXe2++AAAA[0m[Pipeline] // stage
+[8mha:////4L+yajSIeyWlbHSk6P07syloMcAUPu5i/85hhkflF7BEAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUESNiYo2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XNCnCgaJjncXeY9KeDWF0JbGJYn8JNLGOzkwTJgqWSTtJMva4VEnZwqKqhpWAtUUdKHl0GTaiU3fVBoWuPeVYtr2A2psbPKAShZxVzN8yR9heR5MIf5y/AJiHDDXnxXb882ze6G+hisIAAAA=[0m[Pipeline] stage
+[8mha:////4K7lsmTIMYXPvChtxMTOtvbRTKDHIYvLz5SNftxJwZh2AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (Unit Testing Frontend Development Image)
+[8mha:////4MAV3gCB3dJFZBlDJMyYag8oZRln9qYbG/unVG7qYq2FAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] sh
++ docker run -e CI=true omarlaz/frontend:dev npm test
+
+> orientationfrontend@0.1.0 test
+> react-scripts test
+
+PASS src/App.test.js (38.242 s)
+  ✓ renders learn react link (11 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        41.098 s
+Ran all test suites.
+Post stage
+[8mha:////4H1GAEfS2ybdrZ9xtFt50iR6LxsgUCLJrwOnnJgxY9B+AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBq1seBO+AAAA[0m[Pipeline] echo
+Unit tests of the frontend development image passed successfully!!
+[8mha:////4AueBtDUGX5fkXMadFrB/BmP01JX6SZUUnjrkQCo1ifNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN40kgA2+AAAA[0m[Pipeline] }
+[8mha:////4ELC0LMdpT9cG50R2sJdeJ0I8urjljOjFLm4s1FUiflHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGZBx0SvgAAAA==[0m[Pipeline] // stage
+[8mha:////4NZeoNboYIb59+zLkPS0PeR2kKwiIANLPU0rmtUn8pXJAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFQMDYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhl02Tb7T/P6g31jPhcwgAAAA==[0m[Pipeline] stage
+[8mha:////4IKjafxAsBfE8FHv0lZ5YkjGYe+9nqpJ7j0Vfn7jjOATAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] { (Push Frontend Image)
+[8mha:////4D5bB2qkaZEly+/g0EZ2IN3ZBSzmrQ0qGmBLTTN2WkLDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] script
+[8mha:////4J+rafbnLdyvGXLhdIrjX4Jss2zAODV4xu83q1YoBjTXAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] {
+[8mha:////4PEToQgMstuKyloh7d4kddGzoQWN8VMnuk6seNZGy1HwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] withEnv
+[8mha:////4HWi40dDSY7+mPQ8UbK5lJgHiCIgeaie9V8MdasV2rnxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] {
+[8mha:////4FH4bNSA7ESIM5NWjF7p8KGhkUbuQsqaxtlLlulFQ+EEAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] withDockerRegistry
+$ docker login -u omarlaz -p ******** https://index.docker.io/v1/
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/jenkins_home/workspace/Frontend@tmp/735c88b1-8356-4ab4-b8d7-41360db08aeb/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4MQrcf/z1zwtuYPJuI8Adn6NsvWdL9nAPFXP05adBKDnAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] {
+[8mha:////4M6qs42q2O97N0hOmKX8bt98QMiCUhF8Mi+1B7umS7GOAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] isUnix
+[8mha:////4GxER7Jux+wLxorDJDCnmbEHjnvrUjIJ8SjqmTi47BYuAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZGwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fiSQUTb4AAAA=[0m[Pipeline] sh
++ docker tag omarlaz/frontend:dev omarlaz/frontend:dev
+[8mha:////4LcwuR72tKir8ONaaSJvXNVVfZ/GUKvIYj4jlID9a+DMAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZMbCsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DcgVD1S+AAAA[0m[Pipeline] isUnix
+[8mha:////4CWbE5IiO1sjc/NvYL9BDQgQDjhMK3pKBP/oAXOxJLD9AAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSpHDGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DQcJl9O+AAAA[0m[Pipeline] sh
++ docker push omarlaz/frontend:dev
+The push refers to repository [docker.io/omarlaz/frontend]
+5761dddab98c: Preparing
+1724d9c73b5b: Preparing
+ba150b045dde: Preparing
+2e6bde608ea4: Preparing
+f6f8de2f23da: Preparing
+93632468eabc: Preparing
+42c97e50d44b: Preparing
+b2d5eeeaba3a: Preparing
+42c97e50d44b: Waiting
+b2d5eeeaba3a: Waiting
+93632468eabc: Waiting
+ba150b045dde: Layer already exists
+1724d9c73b5b: Layer already exists
+f6f8de2f23da: Layer already exists
+2e6bde608ea4: Layer already exists
+b2d5eeeaba3a: Layer already exists
+93632468eabc: Layer already exists
+42c97e50d44b: Layer already exists
+5761dddab98c: Pushed
+dev: digest: sha256:fc9017ef382cf29d8e7fb24859413f8d0e74133a6e6905eb041dc70478ea6bb9 size: 1997
+[8mha:////4Nj4FdrqPOHCpRKHuUvNlolhIXVhgqIC3xCrkfoV25LRAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSpHEcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfiunHGb4AAAA=[0m[Pipeline] }
+[8mha:////4BDZEO+2+MWvhOChk746/IVwGSpJ2SsCLs6Zq4blI0/BAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wFVJtsGvgAAAA==[0m[Pipeline] // withDockerRegistry
+[8mha:////4DNvem732IECZ0Z65uhsRaUbPBw2yVebTWMOsnJopNlAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wFmxYC6vgAAAA==[0m[Pipeline] }
+[8mha:////4MTEDgKpXuu48814MEM7SKNIwqvvsd4iLLfB/v+rvpa4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDLtd++wFy5h2lvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4EKgbfKYloW3JToNCXpMEVtzqA7acNcRcyU8cTJ29k8WAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDLtd++wFBBUYZvgAAAA==[0m[Pipeline] }
+[8mha:////4Fk79+AEirqATtqISOgBGECnd0vXMzbOV4VL0x36e9LdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDud7m2hw+aG94yvgAAAA==[0m[Pipeline] // script
+Post stage
+[8mha:////4OZ/n9FDhxUeZkmAmqtxHIabLw5cdjg085sGrbNh/W6XAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpUCQkRJXWSsMLTHwYJ9adsR2SihfxNf6ARSQqtljtbDOvN6xjgBMHI3qkwVLsrPBuNHmJicNwdTyJni+iY4rsULQ4tayxWbDlhLCkKGElYYPUOY6WTIKt7NVDVU6Rqc4p5O8oobT6Dk8oZDYnFdIX5gC726gj08/zVwCzT1DuD7nq2n8AEH6eqr4AAAA=[0m[Pipeline] echo
+Pushed frontend image successfully!!
+[8mha:////4Ma79ISYwd+4GSMxQkg+g5g3DXmBXHv/Fq9QU6l3emfYAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAB4oRCL4AAAA=[0m[Pipeline] }
+[8mha:////4FL/DoGBpd+5aD1mDwmzC+KC8Yn5TSmJhs2Nmw6SN8jVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIJQCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w8zRPJTvgAAAA==[0m[Pipeline] // stage
+[8mha:////4EMLKSk4MRVYShwFQHQSba3jeAcraoEjjZpJR6X6G8TvAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiFEhIiCqtlYYXmNgYJ9adsR2SihfxNf6ARSQqtljtbDOvN6xjgBMHg72mwVLsLHo3mrxw4jBcHU/Y8wU7pshOY6unlpVuFmw5aVhSlLASsNHUOY6WTIKt6OVDVk6Sqc4p5O8ooLTqDk8oRDYnGdIX5gC726gi08/zVwCz9wnK/SFXXX8AUTHxeb4AAAA=[0m[Pipeline] }
+[8mha:////4A4hN9mNdxCt9AnYSYwnpLISaBec1mAEemxfVZiiAQh3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBQVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w9i0qrFvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4CrVN7yyZeD/EHT0B8WfgB7T4q+PTN0JYutuF4eJ3Ik+AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKhQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPPRtAz70AAAA=[0m[Pipeline] }
+[8mha:////4PhKqAt6ApPSDe0aKfduqLJUGdkrJSndv6cJ7TI2DpscAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PutINt9AC6nRGy9AAAA[0m[Pipeline] // node
+[8mha:////4LsdqBmZfBHwMR8/OQVTK0vToJt57uVhvFg9MTpe1fjyAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkDC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8F+b4UZOUHaO3jXL0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

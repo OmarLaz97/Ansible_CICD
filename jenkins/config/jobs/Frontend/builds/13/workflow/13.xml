@@ -10,10 +10,10 @@
   <actions>
     <wf.a.BodyInvocationAction plugin="workflow-api@2.46"/>
     <wf.a.LabelAction plugin="workflow-api@2.46">
-      <displayName>Build Frontend Development Image</displayName>
+      <displayName>Build Test</displayName>
     </wf.a.LabelAction>
     <wf.a.TimingAction plugin="workflow-api@2.46">
-      <startTime>1628938718214</startTime>
+      <startTime>1629054527108</startTime>
     </wf.a.TimingAction>
   </actions>
 </Tag>

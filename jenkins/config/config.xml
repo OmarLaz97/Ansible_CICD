@@ -24,26 +24,26 @@
       <name>kubernetes</name>
       <defaultsProviderTemplate></defaultsProviderTemplate>
       <templates/>
-      <serverUrl>https://54.147.99.95:8443</serverUrl>
+      <serverUrl>https://54.91.234.210:8443</serverUrl>
       <useJenkinsProxy>false</useJenkinsProxy>
       <serverCertificate>-----BEGIN CERTIFICATE-----
 MIIDBjCCAe6gAwIBAgIBATANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDEwptaW5p
-a3ViZUNBMB4XDTIxMDgxMzIzNTYwNVoXDTMxMDgxMjIzNTYwNVowFTETMBEGA1UE
-AxMKbWluaWt1YmVDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALNr
-L+aR3T4+Xq2Z6lZm51NtipiYcQE63jDjBwx+Ky9bt/7lilAmOzrxM2xxq9Yce50Z
-/WDhPMxGFedmzxMOv+TgWhfwdfRbJj+wqkNyQj8BSzUCDyNAfiFue/b9XaL6/taS
-oY0MMC/lKtt8dMq1pfI+5iBkCOqHpYJQvRyDhOO5XYPzoEI8gGSd6QTXW8IvkndI
-Z0YS7eUiRPjU6Kx3LNugiM/pssqigys39Ck24XGqk0y1OpHUwGkh+EJJOba8Onmd
-fAkM3LTscVJrRDTVnyrOfdioXWbDdFpnNFmUhRE0HaK+nPL3e5w1CnYhAZt3ZYk4
-CC8XZz1Q/cDr39fdAaUCAwEAAaNhMF8wDgYDVR0PAQH/BAQDAgKkMB0GA1UdJQQW
+a3ViZUNBMB4XDTIxMDgxNDE3MTgxNloXDTMxMDgxMzE3MTgxNlowFTETMBEGA1UE
+AxMKbWluaWt1YmVDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJsD
+moP41OvXfHaHksVVe9Vg1fpeaEd3PvSwQAQRmyKbsTcp2P7GSwW8M6+AqvueGYtK
+Lau7t6EmmXw2SG7fHpFN8eIUzQJuL3RgqDq2msyv9vknrzti5bvz/eHI74z2Jhs0
+oepbACE0ck7beQeY3XAzdxnBBs/tBQ07SGoyF6eZfZSDkcpuxakWIlsPcbVXoT27
+DH2RFPAMxdIzx7ZwxBQuG1WBI7GdKBcboDqzmyLx96ZcTc23Rgo5cuudwf2Y9cTH
+TsbrhpS6+xPwDbCcuET6HbzasBRZNjPG9hBzbwDvjf3HNPcVQpFmReYYwFjnf0u9
+AYO15gxEUaZJHHHUj4kCAwEAAaNhMF8wDgYDVR0PAQH/BAQDAgKkMB0GA1UdJQQW
 MBQGCCsGAQUFBwMCBggrBgEFBQcDATAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQW
-BBTwroq/xD5cBsIZu0ow5WO6Yf52mjANBgkqhkiG9w0BAQsFAAOCAQEAU4Iw5i3O
-59fnnXEfIJypdXa35jkNVpRQXgPsF0uv5mGOwUS3QNqJewQ6RRb6IAHyHsD+7ict
-Y5jYkMUwOwN87Qweaw8stPNDs1Vfzz8nUC+bhBAjorPqzYvEiiMwCVMIZl5Q3J/V
-bOsJgqBDv72ZYRjcpMsH8MIkt9JlRmf07YDncnBWtUWJQcqayp9N5a3x/EjYScNi
-PYX8AwWBJ862coI+WdcbPrOwhveTeUjvTwpyVpFKOq1Qvg9QAo4LeCs0Vr32999z
-K6+Y86//mYb4Osjcd2LnaiXnpVnWhgoiJjzUpPFC4ZEw6HOuBwokjZrMqadswXe4
-iNboGtfZqb32tw==
+BBSDVbQ1GNFg/H4Qj4MNTOTygCE+6DANBgkqhkiG9w0BAQsFAAOCAQEAFIccb8Gf
+ehp+CuKEj1+mhZmqMJq9xxg1Az2jOonDh321KTxgdfAQoGG4pqQLGV4tKXOxG6QR
+FNrNLmN9d4QPh3XWULxxoCfyfASeK79dibsLJ4yL7xehhcMBHZasLCqyUShgkX7M
+C9JDNu2bTtnTjrknjiYNRggtvR7FdIk5IZSTZ5wERQNIqGYVc+7vO7zWIG8/B1Ob
+VqyDhJuJ2OK5Sam5NRPBXBWNLjP1bWH3WtVYenM65/Tk4p3449Q1OJkLKnQ8eI3y
+HYZGY1B/hQ+zb3exMjxHucw9G3+DrlZxy/a3K38LIFtK1p2hggLgFqxKHpyEFjQj
+OYbAmVbof3mJvQ==
 -----END CERTIFICATE-----</serverCertificate>
       <skipTlsVerify>true</skipTlsVerify>
       <addMasterProxyEnvVars>false</addMasterProxyEnvVars>
@@ -56,7 +56,12 @@ iNboGtfZqb32tw==
       <retentionTimeout>5</retentionTimeout>
       <connectTimeout>5</connectTimeout>
       <readTimeout>15</readTimeout>
-      <podLabels/>
+      <podLabels>
+        <org.csanchez.jenkins.plugins.kubernetes.PodLabel>
+          <key>jenkins</key>
+          <value>slave</value>
+        </org.csanchez.jenkins.plugins.kubernetes.PodLabel>
+      </podLabels>
       <usageRestricted>false</usageRestricted>
       <maxRequestsPerHost>32</maxRequestsPerHost>
       <waitForPodSec>600</waitForPodSec>

@@ -5,12 +5,12 @@
       <string>18</string>
     </parentIds>
     <id>19</id>
-    <descriptorId>org.jenkinsci.plugins.docker.workflow.RegistryEndpointStep</descriptorId>
+    <descriptorId>org.jenkinsci.plugins.pipeline.modeldefinition.steps.ScriptStep</descriptorId>
   </node>
   <actions>
-    <wf.a.BodyInvocationAction plugin="workflow-api@2.46"/>
+    <s.a.LogStorageAction/>
     <wf.a.TimingAction plugin="workflow-api@2.46">
-      <startTime>1628938726007</startTime>
+      <startTime>1629054533647</startTime>
     </wf.a.TimingAction>
   </actions>
 </Tag>

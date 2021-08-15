@@ -1,0 +1,42 @@
+Started on Aug 15, 2021, 5:59:07 PM
+Started by event from 140.82.115.148 ⇒ https://5acfe9dbc6f2.ngrok.io:8080/github-webhook/ on Sun Aug 15 17:59:04 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 76bb2ebb61b1c7f41f3a9da29300e7771e9fe560 (origin/development)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential Github_Auth
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Frontend@script/.git # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url https://github.com/OmarLaz97/Frontend_CICD # timeout=10
+Fetching upstream changes from https://github.com/OmarLaz97/Frontend_CICD
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/OmarLaz97/Frontend_CICD +refs/heads/*:refs/remotes/origin/* # timeout=10
+Polling for changes in
+Seen branch in repository origin/development
+Seen branch in repository origin/main
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+ > git log --full-history --no-abbrev --format=raw -M -m 76bb2ebb61b1c7f41f3a9da29300e7771e9fe560..c09e36cfed707d645c24d3ba6f02b87e183143bd # timeout=10
+Using strategy: Default
+[poll] Last Built Revision: Revision 76bb2ebb61b1c7f41f3a9da29300e7771e9fe560 (origin/development)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential Github_Auth
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Frontend/.git # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url https://github.com/OmarLaz97/Frontend_CICD # timeout=10
+Fetching upstream changes from https://github.com/OmarLaz97/Frontend_CICD
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/OmarLaz97/Frontend_CICD +refs/heads/*:refs/remotes/origin/* # timeout=10
+Polling for changes in
+Seen branch in repository origin/development
+Seen branch in repository origin/main
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+ > git log --full-history --no-abbrev --format=raw -M -m 76bb2ebb61b1c7f41f3a9da29300e7771e9fe560..c09e36cfed707d645c24d3ba6f02b87e183143bd # timeout=10
+Done. Took 15 sec
+Changes found

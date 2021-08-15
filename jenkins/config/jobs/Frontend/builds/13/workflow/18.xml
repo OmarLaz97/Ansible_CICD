@@ -5,30 +5,15 @@
       <string>17</string>
     </parentIds>
     <id>18</id>
-    <descriptorId>org.jenkinsci.plugins.docker.workflow.RegistryEndpointStep</descriptorId>
+    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.StageStep</descriptorId>
   </node>
   <actions>
-    <s.a.LogStorageAction/>
-    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.93">
-      <arguments>
-        <entry>
-          <string>url</string>
-          <string></string>
-        </entry>
-        <entry>
-          <string>credentialsId</string>
-          <string>Dockerhub</string>
-        </entry>
-        <entry>
-          <string>toolName</string>
-          <null/>
-        </entry>
-      </arguments>
-      <sensitiveVariables/>
-      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
-    </cps.a.ArgumentsActionImpl>
+    <wf.a.BodyInvocationAction plugin="workflow-api@2.46"/>
+    <wf.a.LabelAction plugin="workflow-api@2.46">
+      <displayName>Build Frontend Image</displayName>
+    </wf.a.LabelAction>
     <wf.a.TimingAction plugin="workflow-api@2.46">
-      <startTime>1628938723306</startTime>
+      <startTime>1629054531788</startTime>
     </wf.a.TimingAction>
   </actions>
 </Tag>

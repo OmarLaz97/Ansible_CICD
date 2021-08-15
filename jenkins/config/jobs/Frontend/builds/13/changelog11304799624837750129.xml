@@ -1,0 +1,10 @@
+commit f76b731a14cc392060ab61698ef91a8c986be53a
+tree ab1c98f873ba9a67c80f9351f7399db0d6f90c4c
+parent 2728c78b37a3fefb39c319f2db838f4a6c638f1f
+author Omar Laz <omar.laz977@gmail.com> 2021-08-15 21:07:02 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-15 21:07:02 +0200
+
+    Changed to dark
+
+
+:100644 100644 85638b5ea060a0e84bdaf9c1355d3f585b81ee64 35bbc7eee9052968acc0126e1f05cb059cf1a241 M	src/Containers/MainPage/MainPage.js

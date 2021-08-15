@@ -8,9 +8,9 @@
     <descriptorId>org.jenkinsci.plugins.pipeline.modeldefinition.steps.ScriptStep</descriptorId>
   </node>
   <actions>
-    <s.a.LogStorageAction/>
+    <wf.a.BodyInvocationAction plugin="workflow-api@2.46"/>
     <wf.a.TimingAction plugin="workflow-api@2.46">
-      <startTime>1628939175663</startTime>
+      <startTime>1629054887726</startTime>
     </wf.a.TimingAction>
   </actions>
 </Tag>

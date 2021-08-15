@@ -1,0 +1,152 @@
+commit 44fa2af1f74f2b9df41488ed144961f039ecd993
+tree 988c3138dc8c169ab82189d9a31093b4bc64b557
+parent b2890f65e532029426a70b5e30c4ba033a413fbe
+author Omar Laz <omar.laz977@gmail.com> 2021-08-15 19:21:41 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-15 19:21:41 +0200
+
+    Ready
+
+
+:100644 100644 018e65dd545bd3095e74516a81b0c15e7b317237 c79d5208944168fd679e292938f8a65c7c270d35 M	Jenkinsfile
+commit 34842de851e7ad4bbd569abb58678e003118e4c9
+tree f56eb1f00f42826e5a86a29030690677daea1f17
+parent 1c8cf15ee5f532ca513246e52461e9e08180e6e4
+author Omar LAZ <omar.laz977@gmail.com> 2021-08-15 14:07:15 +0200
+committer GitHub <noreply@github.com> 2021-08-15 14:07:15 +0200
+
+    Update README.md
+
+:100644 100644 05d031a74a688d292445c90239afb166d1f89156 4dfaea21bc2b7abd3c0235b872fac16a7ef5f70c M	README.md
+commit 1c8cf15ee5f532ca513246e52461e9e08180e6e4
+tree 3cf958a65ff553451b6f4d79c9ecd82567501691
+parent 23d4487270ccc23877cfef3a83a45de44d7c89ac
+author Omar LAZ <omar.laz977@gmail.com> 2021-08-15 14:04:28 +0200
+committer GitHub <noreply@github.com> 2021-08-15 14:04:28 +0200
+
+    Update README.md
+
+:100644 100644 9075f3096f7a18478497fe42948af524fb0ffad5 05d031a74a688d292445c90239afb166d1f89156 M	README.md
+commit 23d4487270ccc23877cfef3a83a45de44d7c89ac
+tree ad397681551c04252398ef4eafe8f093146feb22
+parent b2890f65e532029426a70b5e30c4ba033a413fbe
+author Omar LAZ <omar.laz977@gmail.com> 2021-08-15 14:03:05 +0200
+committer GitHub <noreply@github.com> 2021-08-15 14:03:05 +0200
+
+    Update README.md
+
+:100644 100644 f307e1181cfeca1d368a879e25d01772de40cb16 9075f3096f7a18478497fe42948af524fb0ffad5 M	README.md
+commit 5531702424b745513554deafa423cd1f77bc3a16
+tree 1ab7d80d6c55fc9a8408d38213ed573bc0159d95
+parent 814b42f1b4578f8f1a03c0d8d3e607824932dea8
+author Omar Laz <omar.laz977@gmail.com> 2021-08-15 02:31:56 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-15 02:31:56 +0200
+
+    changed the bar theme
+
+
+:100644 100644 35bbc7eee9052968acc0126e1f05cb059cf1a241 ba08b55b585d6a6549144bde603f4b1ec7327582 M	src/Containers/MainPage/MainPage.js
+commit edf26dd5def73fccafe028ed79ec0f7349a03270
+tree e8c856f08538b45519840e747a8960c40e6719b7
+parent 9099ba56a6a938112ad7135f7567063eb46d99b3
+author Omar Laz <omar.laz977@gmail.com> 2021-08-15 02:31:08 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-15 02:31:08 +0200
+
+    testing
+
+
+:100644 100644 96b992d751d8619ba0b2326678e0456e883d9bbe 018e65dd545bd3095e74516a81b0c15e7b317237 M	Jenkinsfile
+commit 814b42f1b4578f8f1a03c0d8d3e607824932dea8
+tree f72c837195ae45c816196f13eefe9d31806e6134
+parent 62c9242390813b7f5d4c1488f1610c6fcb1f77b1
+author Omar Laz <omar.laz977@gmail.com> 2021-08-14 12:35:56 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-14 12:35:56 +0200
+
+    Testing ansible
+
+
+:100644 100644 124f5da0ff78e0318ff18b480dfb0c3730d6fab0 35bbc7eee9052968acc0126e1f05cb059cf1a241 M	src/Containers/MainPage/MainPage.js
+commit 62c9242390813b7f5d4c1488f1610c6fcb1f77b1
+tree 6ba6e250e4f4f6d67abd5ac5c77c7a5fd73f5e5b
+parent 177b94484911f9ceb8cc06a9326e50efa43dadf4
+author Omar Laz <omar.laz977@gmail.com> 2021-08-14 12:33:36 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-14 12:33:36 +0200
+
+    testing ansible
+
+
+:100644 100644 f1404493b657a7071efc932a80e5aaa43faa01c7 626bda6d4ca9f491b96b510473206204250488e9 M	docker-compose.yml
+:100644 100644 4233bb50d02c894651a9d7cdda9e468e7e360f00 124f5da0ff78e0318ff18b480dfb0c3730d6fab0 M	src/Containers/MainPage/MainPage.js
+commit 177b94484911f9ceb8cc06a9326e50efa43dadf4
+tree d5421a26a136549e26e1e0414f87ef2973e961ce
+parent 76bb2ebb61b1c7f41f3a9da29300e7771e9fe560
+author Omar Laz <omar.laz977@gmail.com> 2021-08-14 00:02:25 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-14 00:02:25 +0200
+
+    Fixed docker compose
+
+
+:100644 100644 5f823e1a2cdf5558af6ea2bd10469a9c770e0967 f1404493b657a7071efc932a80e5aaa43faa01c7 M	docker-compose.yml
+commit 76bb2ebb61b1c7f41f3a9da29300e7771e9fe560
+tree e4a303264baef5caff7c41c15b24d9a40e1e3c70
+parent 64de2fa72612ce877f92d84e68c1f9904501ff5b
+author Omar Laz <omar.laz977@gmail.com> 2021-08-13 23:55:16 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-13 23:55:16 +0200
+
+    Added docker compose
+
+
+:000000 100644 0000000000000000000000000000000000000000 5008ddfcf53c02e82d7eee2e57c38e5672ef89f6 A	.DS_Store
+:000000 100644 0000000000000000000000000000000000000000 7e54e947aa5f58f7020fe3ea402805e7fcdae9b8 A	db/init.sql
+:000000 100644 0000000000000000000000000000000000000000 5f823e1a2cdf5558af6ea2bd10469a9c770e0967 A	docker-compose.yml
+:000000 100644 0000000000000000000000000000000000000000 85ae3998bdc69cb58dd3c019d6a0a90a22b18ccf A	proxy/Dockerfile
+:000000 100644 0000000000000000000000000000000000000000 d18e9b8512be24ceca48729c4dd15134b8cf8728 A	proxy/default.conf
+commit 64de2fa72612ce877f92d84e68c1f9904501ff5b
+tree b7f79dc477f04f8e41b31d55721204d4cd1c8d7a
+parent 73460700a66015499b8a247a2f67a13f7c92cd96
+author Omar Laz <omar.laz977@gmail.com> 2021-08-13 23:08:07 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-13 23:08:07 +0200
+
+    Added unit testing
+
+
+:100644 100644 800b2060adb2ffa46b8070b2266890fd493ba0aa 75772019371c2b4b35b784cad0331cb9fea69b42 M	Jenkinsfile
+commit 73460700a66015499b8a247a2f67a13f7c92cd96
+tree 6143b0cf6bc173fbd0b20664b9ec4cc4e473f47c
+parent 385fe63364deb7985922f05c856bbb6804ac28d2
+author Omar Laz <omar.laz977@gmail.com> 2021-08-13 23:05:26 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-13 23:05:26 +0200
+
+    Added unit testing
+
+
+:100644 100644 b51935ab9bf2f08e229d592880aeb27925ed23fa 800b2060adb2ffa46b8070b2266890fd493ba0aa M	Jenkinsfile
+commit 385fe63364deb7985922f05c856bbb6804ac28d2
+tree c0770aba066aa78ddff9e72e0f46d711ba956086
+parent 935d2f8820abec0ba784e7c6470cd911c55fc1f1
+author Omar Laz <omar.laz977@gmail.com> 2021-08-13 23:04:19 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-13 23:04:19 +0200
+
+    Added unit testing
+
+
+:100644 100644 0ac95c112b2f9a837219104b9cc00fd42784d3bc b51935ab9bf2f08e229d592880aeb27925ed23fa M	Jenkinsfile
+commit 935d2f8820abec0ba784e7c6470cd911c55fc1f1
+tree f8545addda1786ab1ee8577caf3d73c83ce4b458
+parent 9b9e37f39edc999a90d11ec024a96359a31bf93b
+author Omar Laz <omar.laz977@gmail.com> 2021-08-13 19:28:14 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-13 19:28:14 +0200
+
+    test
+
+
+:100644 100644 124f5da0ff78e0318ff18b480dfb0c3730d6fab0 4233bb50d02c894651a9d7cdda9e468e7e360f00 M	src/Containers/MainPage/MainPage.js
+commit 9b9e37f39edc999a90d11ec024a96359a31bf93b
+tree 0df3b58c8a4426d87e1b502864408d8b7a1f49ef
+parent e45e1bee98f5a01f44d1e5bde8505d652ed7c7d6
+author Omar Laz <omar.laz977@gmail.com> 2021-08-13 19:19:44 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-13 19:19:44 +0200
+
+    test
+
+
+:100644 100644 f966930d1e23919e833959bb5f513f50082a10e0 124f5da0ff78e0318ff18b480dfb0c3730d6fab0 M	src/Containers/MainPage/MainPage.js
