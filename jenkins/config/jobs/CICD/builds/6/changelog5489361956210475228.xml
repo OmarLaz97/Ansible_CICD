@@ -1,0 +1,10 @@
+commit 1f8392c17c762e211a3ed4de710a9c3ad69017a3
+tree 1ba863f693de86ba8bf82e30750c310c0880a4a9
+parent 8c3241a49981f97f923ccb5ebac5dde6ed7773a9
+author Omar Laz <omar.laz977@gmail.com> 2021-08-12 10:23:55 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-12 10:23:55 +0200
+
+    Trying to fix the copy issue
+
+
+:100644 100644 f1df6132fabe339452ca208e72437f3b7e56cded 20be12d0027473f5b55336fb73b0e6331d2a3c3d M	Frontend/Dockerfile

@@ -1,0 +1,38 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.8">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.93">
+    <parentIds>
+      <string>53</string>
+    </parentIds>
+    <id>58</id>
+    <descriptorId>hudson.plugins.emailext.EmailExtStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.93">
+      <arguments>
+        <entry>
+          <string>mimeType</string>
+          <string>text/html</string>
+        </entry>
+        <entry>
+          <string>to</string>
+          <string>jenkinsproject51@gmail.com</string>
+        </entry>
+        <entry>
+          <string>body</string>
+          <string>&lt;b&gt;Example&lt;/b&gt;&lt;br&gt;Project: CICD &lt;br&gt;Build Number: 33 &lt;br&gt; URL de build: http://localhost:8080/job/CICD/33/</string>
+        </entry>
+        <entry>
+          <string>subject</string>
+          <string>ERROR CI: Project name -&gt; CICD</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.46">
+      <startTime>1628766350430</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

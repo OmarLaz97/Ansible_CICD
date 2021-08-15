@@ -1,0 +1,10 @@
+commit 8bfb7d7b1adc9575cdb84a04b243a9f2f23fd6d8
+tree 6c34556589b7eebc7b73d75498fa56e4b62ad6a4
+parent affa00a371851ac9c497ce4458db493e47465d72
+author Omar Laz <omar.laz977@gmail.com> 2021-08-12 11:28:09 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-12 11:28:09 +0200
+
+    Fixed pipeline
+
+
+:100644 100644 cd8c8fbe09b692209f52ab590ab050a6a5e3c260 866921fa4cada7bac454bf0e9211a7ca1777ce07 M	Jenkinsfile

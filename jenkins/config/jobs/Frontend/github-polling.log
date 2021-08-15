@@ -1,0 +1,42 @@
+Started on Aug 15, 2021, 12:07:17 PM
+Started by event from 140.82.115.246 ⇒ https://5acfe9dbc6f2.ngrok.io:8080/github-webhook/ on Sun Aug 15 12:07:17 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 23d4487270ccc23877cfef3a83a45de44d7c89ac (origin/main)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential Github_Auth
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Frontend@script/.git # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url https://github.com/OmarLaz97/Frontend_CICD # timeout=10
+Fetching upstream changes from https://github.com/OmarLaz97/Frontend_CICD
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/OmarLaz97/Frontend_CICD +refs/heads/*:refs/remotes/origin/* # timeout=10
+Polling for changes in
+Seen branch in repository origin/development
+Seen branch in repository origin/main
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+ > git log --full-history --no-abbrev --format=raw -M -m 23d4487270ccc23877cfef3a83a45de44d7c89ac..34842de851e7ad4bbd569abb58678e003118e4c9 # timeout=10
+Using strategy: Default
+[poll] Last Built Revision: Revision 23d4487270ccc23877cfef3a83a45de44d7c89ac (origin/main)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential Github_Auth
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Frontend/.git # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url https://github.com/OmarLaz97/Frontend_CICD # timeout=10
+Fetching upstream changes from https://github.com/OmarLaz97/Frontend_CICD
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/OmarLaz97/Frontend_CICD +refs/heads/*:refs/remotes/origin/* # timeout=10
+Polling for changes in
+Seen branch in repository origin/development
+Seen branch in repository origin/main
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+ > git log --full-history --no-abbrev --format=raw -M -m 23d4487270ccc23877cfef3a83a45de44d7c89ac..34842de851e7ad4bbd569abb58678e003118e4c9 # timeout=10
+Done. Took 3 min 23 sec
+Changes found

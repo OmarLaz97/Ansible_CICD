@@ -1,0 +1,10 @@
+commit 2146caad55658ad2281ec0de38930f39d220fd11
+tree 5517aade2d26b289c1aa9454f50686cd03bd28b8
+parent 9d3fecc479e6a37797bbe9684414150e137aed25
+author Omar Laz <omar.laz977@gmail.com> 2021-08-13 14:33:15 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-13 14:33:15 +0200
+
+    Added kubernetes
+
+
+:100644 100644 d1f98d407482237c79357422d1f11ff46561dee4 a7fd87dfe9dba15dc640dae338020dac026670ec M	Jenkinsfile

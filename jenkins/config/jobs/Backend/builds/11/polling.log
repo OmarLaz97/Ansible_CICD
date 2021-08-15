@@ -1,0 +1,40 @@
+Started on Aug 14, 2021, 8:45:05 PM
+Started by event from 140.82.115.250 ⇒ https://5acfe9dbc6f2.ngrok.io:8080/github-webhook/ on Sat Aug 14 20:45:05 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 8844c022a782c95d5310966368d3c39e5b69b57a (origin/development)
+The recommended git tool is: NONE
+using credential Github_Auth
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Backend@script/.git # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url https://github.com/OmarLaz97/Backend_CICD # timeout=10
+Fetching upstream changes from https://github.com/OmarLaz97/Backend_CICD
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/OmarLaz97/Backend_CICD +refs/heads/*:refs/remotes/origin/* # timeout=10
+Polling for changes in
+Seen branch in repository origin/development
+Seen branch in repository origin/main
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+ > git log --full-history --no-abbrev --format=raw -M -m 8844c022a782c95d5310966368d3c39e5b69b57a..cb76fcf9136fa1cad2677a48bbf38b1cd0e98ee8 # timeout=10
+Using strategy: Default
+[poll] Last Built Revision: Revision 8844c022a782c95d5310966368d3c39e5b69b57a (origin/development)
+The recommended git tool is: NONE
+using credential Github_Auth
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Backend/.git # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url https://github.com/OmarLaz97/Backend_CICD # timeout=10
+Fetching upstream changes from https://github.com/OmarLaz97/Backend_CICD
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/OmarLaz97/Backend_CICD +refs/heads/*:refs/remotes/origin/* # timeout=10
+Polling for changes in
+Seen branch in repository origin/development
+Seen branch in repository origin/main
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+ > git log --full-history --no-abbrev --format=raw -M -m 8844c022a782c95d5310966368d3c39e5b69b57a..cb76fcf9136fa1cad2677a48bbf38b1cd0e98ee8 # timeout=10
+Done. Took 8.8 sec
+Changes found

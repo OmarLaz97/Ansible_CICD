@@ -1,0 +1,10 @@
+commit ac94e1af56de874b026a99349f5295387e844561
+tree 81001d90707ea4ae87312f502d19a9f8f0bb65ee
+parent 4dfddec00548c8dbdf3c34de4802def8d91eda0e
+author Omar Laz <omar.laz977@gmail.com> 2021-08-13 15:06:58 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-13 15:06:58 +0200
+
+    Added rollout strategies
+
+
+:100644 100644 657818aaaf02368bcc0506d0de0c8e729d5591fa ab3f02f28ff15d73248d0cf67db9224805d7fcbd M	Jenkinsfile

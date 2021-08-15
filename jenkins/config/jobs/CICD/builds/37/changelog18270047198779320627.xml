@@ -1,0 +1,11 @@
+commit 4f2f3e880ea77b02d660fa7b113403dcb1c81c8a
+tree 4345234d546e0f0aac9a79940223729cd974eb15
+parent 454472d8d6d65df36b1e1fe1af629d6e6daacc9f
+author Omar Laz <omar.laz977@gmail.com> 2021-08-12 15:21:16 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-12 15:21:16 +0200
+
+    Added database settings
+
+
+:100644 100644 c4aaa9a29a083573e152360ff44011c274da5dfe ca4a5fd38fb731fc0be8ce55d9e2c00a57a1c6ef M	Backend/src/main/resources/application.properties
+:100644 100644 b31ba224d5ab4e8de932998ecde571bb27c3d7b4 896f6603f326e4e302433c9846e51005143f950f M	k8s/postgres-deployment.yaml

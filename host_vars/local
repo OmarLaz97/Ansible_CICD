@@ -1,0 +1,3 @@
+# Host variables for the t2micro system
+---
+ansible_host: localhost

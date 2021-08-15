@@ -1,0 +1,15 @@
+Started on Aug 13, 2021, 1:07:03 PM
+Started by event from 140.82.115.145 ⇒ https://0cec2b17e1bd.ngrok.io:8080/github-webhook/ on Fri Aug 13 13:07:03 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 4dfddec00548c8dbdf3c34de4802def8d91eda0e (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential Github_Auth
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -- https://github.com/OmarLaz97/CICD_Project # timeout=10
+Found 1 remote heads on https://github.com/OmarLaz97/CICD_Project
+[poll] Latest remote head revision on refs/heads/master is: ac94e1af56de874b026a99349f5295387e844561
+Done. Took 2.8 sec
+Changes found

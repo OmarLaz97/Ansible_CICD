@@ -1,0 +1,85 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors/>
+  <version>2.289.3</version>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.FullControlOnceLoggedInAuthorizationStrategy">
+    <denyAnonymousReadAccess>true</denyAnonymousReadAccess>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>true</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds>
+    <org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud plugin="kubernetes@1.30.1">
+      <name>kubernetes</name>
+      <defaultsProviderTemplate></defaultsProviderTemplate>
+      <templates/>
+      <serverUrl>https://54.147.99.95:8443</serverUrl>
+      <useJenkinsProxy>false</useJenkinsProxy>
+      <serverCertificate>-----BEGIN CERTIFICATE-----
+MIIDBjCCAe6gAwIBAgIBATANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDEwptaW5p
+a3ViZUNBMB4XDTIxMDgxMzIzNTYwNVoXDTMxMDgxMjIzNTYwNVowFTETMBEGA1UE
+AxMKbWluaWt1YmVDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALNr
+L+aR3T4+Xq2Z6lZm51NtipiYcQE63jDjBwx+Ky9bt/7lilAmOzrxM2xxq9Yce50Z
+/WDhPMxGFedmzxMOv+TgWhfwdfRbJj+wqkNyQj8BSzUCDyNAfiFue/b9XaL6/taS
+oY0MMC/lKtt8dMq1pfI+5iBkCOqHpYJQvRyDhOO5XYPzoEI8gGSd6QTXW8IvkndI
+Z0YS7eUiRPjU6Kx3LNugiM/pssqigys39Ck24XGqk0y1OpHUwGkh+EJJOba8Onmd
+fAkM3LTscVJrRDTVnyrOfdioXWbDdFpnNFmUhRE0HaK+nPL3e5w1CnYhAZt3ZYk4
+CC8XZz1Q/cDr39fdAaUCAwEAAaNhMF8wDgYDVR0PAQH/BAQDAgKkMB0GA1UdJQQW
+MBQGCCsGAQUFBwMCBggrBgEFBQcDATAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQW
+BBTwroq/xD5cBsIZu0ow5WO6Yf52mjANBgkqhkiG9w0BAQsFAAOCAQEAU4Iw5i3O
+59fnnXEfIJypdXa35jkNVpRQXgPsF0uv5mGOwUS3QNqJewQ6RRb6IAHyHsD+7ict
+Y5jYkMUwOwN87Qweaw8stPNDs1Vfzz8nUC+bhBAjorPqzYvEiiMwCVMIZl5Q3J/V
+bOsJgqBDv72ZYRjcpMsH8MIkt9JlRmf07YDncnBWtUWJQcqayp9N5a3x/EjYScNi
+PYX8AwWBJ862coI+WdcbPrOwhveTeUjvTwpyVpFKOq1Qvg9QAo4LeCs0Vr32999z
+K6+Y86//mYb4Osjcd2LnaiXnpVnWhgoiJjzUpPFC4ZEw6HOuBwokjZrMqadswXe4
+iNboGtfZqb32tw==
+-----END CERTIFICATE-----</serverCertificate>
+      <skipTlsVerify>true</skipTlsVerify>
+      <addMasterProxyEnvVars>false</addMasterProxyEnvVars>
+      <capOnlyOnAlivePods>false</capOnlyOnAlivePods>
+      <namespace>default</namespace>
+      <webSocket>false</webSocket>
+      <directConnection>false</directConnection>
+      <credentialsId>apiserver</credentialsId>
+      <containerCap>10</containerCap>
+      <retentionTimeout>5</retentionTimeout>
+      <connectTimeout>5</connectTimeout>
+      <readTimeout>15</readTimeout>
+      <podLabels/>
+      <usageRestricted>false</usageRestricted>
+      <maxRequestsPerHost>32</maxRequestsPerHost>
+      <waitForPodSec>600</waitForPodSec>
+      <podRetention class="org.csanchez.jenkins.plugins.kubernetes.pod.retention.Never"/>
+    </org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud>
+  </clouds>
+  <quietPeriod>5</quietPeriod>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>50000</slaveAgentPort>
+  <label></label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties/>
+</hudson>

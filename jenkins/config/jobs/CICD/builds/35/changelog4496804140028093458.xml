@@ -1,0 +1,10 @@
+commit 24036d06aaa9cb69beebfab084733b332b34ea92
+tree 8751637d915b601e3016baebe429c8c58d8c1f6b
+parent d013fad1a3a748afe6ba7fa6f6d7552e9b79686e
+author Omar Laz <omar.laz977@gmail.com> 2021-08-12 13:16:37 +0200
+committer Omar Laz <omar.laz977@gmail.com> 2021-08-12 13:16:37 +0200
+
+    Added parallel stages
+
+
+:100644 100644 f1df6132fabe339452ca208e72437f3b7e56cded 44dabb61b9c73ab312f9184d687f9a5a9368a8d7 M	Frontend/Dockerfile
